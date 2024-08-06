@@ -1,7 +1,8 @@
 ---
 layout: wiki
 title: Android Studio
-categories: Android
+cate1: Android
+cate2: Tools
 description: Android Studio 快捷键及使用技巧汇总
 keywords: Android, Android Studio
 ---
@@ -285,6 +286,10 @@ Press Cancel to exit.
 ### 安装 Android Studio 后不显示 logcat 窗口
 
 新建或打开一个简单的 Android 工程，编译运行后，窗口就会自动出来了。
+
+### Unsupported Modules Detected
+
+关闭 Android Studio，删除项目根目录下的 .idea 文件夹，重新打开项目即可。
 
 ## 其它信息
 

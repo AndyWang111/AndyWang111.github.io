@@ -1,7 +1,8 @@
 ---
 layout: wiki
 title: Kindle
-categories: [Tools]
+cate1: Devices
+cate2: 
 description: 我爱 Kindle
 keywords: Kindle
 ---
@@ -24,6 +25,8 @@ keywords: Kindle
 2. 进入文件浏览器，找到 /mnt/us/mkk/developer.keystore，长按复制；
 3. 进到 /var/local/java/keystore 目录，长按粘贴；
 4. 重启 Kindle。
+
+注：第 2 步进到 /mnt/us/mkk 路径下有可能发现看不到 developer.keystore 文件，此时在 KOReader 的菜单项里找到「设置」-「显示不支持的文件」，将其勾选即可。
 
 ### KPVBooklet 安装后无法在主页直接打开 PDF 和 EPUB 文件
 

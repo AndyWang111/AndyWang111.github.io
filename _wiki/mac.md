@@ -1,7 +1,8 @@
 ---
 layout: wiki
 title: Mac OS X
-categories: Mac
+cate1: Basis
+cate2: OS
 description: 使用 Mac OS X 的一些快捷键和遇到的问题。
 keywords: Mac
 ---
@@ -20,27 +21,36 @@ Cmd --> Command
 
 ## 窗口
 
-| 功能                   | 快捷键  |
-|:-----------------------|:--------|
-| 显示桌面               | F11     |
-| 切换窗口全屏状态       | C-Cmd-F |
-| 隐藏当前程序的所有窗口 | Cmd-H   |
-| 最小化窗口             | Cmd-M   |
-| 关闭窗口               | Cmd-W   |
-| 关闭当前程序           | Cmd-Q   |
-| 新建标签               | Cmd-T   |
-| 新建窗口               | Cmd-N   |
+| 功能                   | 快捷键       |
+|:-----------------------|:-------------|
+| 显示桌面               | F11          |
+| 上/下一个桌面/工作区   | C-Left/Right |
+| 切换窗口全屏状态       | C-Cmd-F      |
+| 隐藏当前程序的所有窗口 | Cmd-H        |
+| 最小化窗口             | Cmd-M        |
+| 关闭窗口               | Cmd-W        |
+| 关闭当前程序           | Cmd-Q        |
+| 新建标签               | Cmd-T        |
+| 新建窗口               | Cmd-N        |
+| 调度中心               | C-Up         |
+| 当前应用的所有窗口     | C-Down       |
 
 ## 程序
 
-| 功能                | 快捷键     |
-|:--------------------|:-----------|
+| 功能                | 快捷键      |
+|:--------------------|:------------|
 | 打开 emoji 表情窗口 | C-Cmd- 空格 |
 | 打开 Spotlight      | C- 空格     |
 | 切换输入法          | Cmd- 空格   |
 | 打开 Alfred         | M- 空格     |
 | 打开 Finder 并查找  | C-M- 空格   |
-| 打开 Launchpad      | 四指合拢   |
+| 打开 Launchpad      | 四指合拢    |
+
+## 音量
+
+| 功能     | 快捷键            |
+|:---------|:------------------|
+| 微调音量 | M-S-音量加/音量减 |
 
 ## 命令行
 
@@ -192,7 +202,7 @@ Cmd --> Command
 | 切换标签     | Cmd-S-Left/Right |
 | 收藏页面     | Cmd-D            |
 
-## 保存 Safari 里正在播放的视频
+### 保存 Safari 里正在播放的视频
 
 ```sh
 $ su
@@ -207,6 +217,13 @@ zy3770994vqg83xvmbc9pd0m0000gn
 ```
 
 然后复制里面叫 FlashTmp.xxx 的文件，改名为 FlashTmp.flv。（操作过程中保持视频在播放状态）
+
+### 打开 Axure 导出文件
+
+1. Safari 浏览器 - 偏好设置 - 高级 - 勾选「在菜单栏中显示开发菜单」；
+2. 展开「开发」菜单，勾选「停用本地文件限制」；
+
+再将 Axure 导出文件的 index.html 使用 Safari 打开就好了。
 
 ## Terminal
 
@@ -274,6 +291,34 @@ brew linkapps mpv
 
 使用 Mac 自带的“数码测色计”。
 
+## 翻译光标下的单词
+
+鼠标中键，或 <kbd>Cmd</kbd>-<kbd>Ctrl</kbd>-<kbd>d</kbd>。
+
+## 小技巧
+
+### 程序坞延迟消除
+
+Mac 自动隐藏/显示程序坞是默认有一秒延迟的。
+
+消除延迟方法：
+
+```sh
+defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+```
+
+恢复默认：
+
+```sh
+defaults delete com.apple.Dock autohide-delay && killall Dock
+```
+
+### 修改默认 shell
+
+```sh
+chsh -s /bin/zsh
+```
+
 ## 问题解决
 
 ### No Xcode or CLT version detected
@@ -319,7 +364,51 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
 ```
 
+### 通过扩展坞连接的键盘鼠标卡顿断电
+
+我用 MacBook Pro 16 寸 2019 款，通过 biaze 五口扩展坞连接键盘、鼠标、显示器、网线，一直好好的，突然有一天键盘鼠标开始经常卡顿、断电。参考 <https://support.apple.com/zh-cn/HT201295>，重置 SMC 问题也没有解决。
+
+尝试过插别的接口、换扩展坞、只接以上几种设备之一和之二等，都没解决。最后用了个别的鼠标试了下，好了。欲哭无泪。
+
+### macOS 12.4 Monterey 系统授权弹窗无法点击
+
+自从电脑从本地账号切换到域账号之后，这个系统版本里经常一个程序用着用着，突然弹出个系统授权弹窗，申请访问文件夹、摄像头、麦克风、屏幕录制、System Events 等等，然后弹窗里的两个按钮点击无效，程序就卡在那里了。
+
+比如下面这个弹窗：
+
+![](/images/wiki/mac-request-permissions.png)
+
+解决方法：
+
+1. 打开「活动监视器」，结束掉 UserNotificationCenter 进程；
+
+    ![](/images/wiki/mac-terminate-user-notification-center.png)
+
+2. 打开「系统偏好设置」-「安全性与隐私」，找到刚才提示的对应权限和应用，把左下角的锁打开后，勾选上；
+
+    ![](/images/wiki/mac-safe-and-privilege.png)
+
+### 删除 zip 文件里的隐藏文件
+
+使用 Mac 自带的压缩功能，打出来的 zip 包里面会打入像 .DS_Store 和 __MACOSX 这些东西，在有些场景下需要将它们清除。
+
+这时，可以使用以下命令：
+
+```sh
+zip -d 归档.zip "__MACOSX*"
+zip -d 归档.zip "*.DS_Store"
+```
+
+或者，创建一个如下内容的 cleanzip.sh 文件，放到 PATH 环境变量包含的路径里面，然后在需要时执行 `cleanzip 归档.zip` 即可：
+
+```sh
+zip -d "$1" "__MACOSX*"
+zip -d "$1" "*.DS_Store"
+```
+
 ## 参考
 
-* [你可能不知道的 Mac 技巧 - 截图，Gif 制作及 App 推荐](https://zhuanlan.zhihu.com/p/25154768)
-* [terminal-mac-cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
+- [你可能不知道的 Mac 技巧 - 截图，Gif 制作及 App 推荐](https://zhuanlan.zhihu.com/p/25154768)
+- [terminal-mac-cheatsheet](https://github.com/0nn0/terminal-mac-cheatsheet)
+- [macOS 12.4 系统弹窗无法点点击 SimulatorTrampoline.xpc 无法授权](https://www.jianshu.com/p/d070db9e8af5)
+- [如何取消macOS压缩时生成的「_MACOSX」的隐藏文件夹？ - 知乎](https://www.zhihu.com/question/475167014)

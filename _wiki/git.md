@@ -1,6 +1,8 @@
 ---
 layout: wiki
 title: Git
+cate1: Tools
+cate2: Version Control
 categories: Git
 description: Git 常用操作记录。
 keywords: Git, 版本控制
@@ -70,13 +72,19 @@ git stash list
 查看某一次 stash 的改动文件列表（不传最后一个参数默认显示最近一次）：
 
 ```
-git stash show stash@{0}
+git stash show "stash@{0}"
 ```
 
 以 patch 方式显示改动内容
 
 ```
-git stash show -p stash@{0}
+git stash show -p "stash@{0}"
+```
+
+应用某次 stash 改动内容：
+
+```
+git stash apply "stash@{0}"
 ```
 
 ### 如何合并 fork 的仓库的上游更新？
@@ -163,13 +171,6 @@ git submodule update --init --recursive
 ```
 
 ### 删除远程 tag
-
-```
-git tag -d v0.0.9
-git push origin :refs/tags/v0.0.9
-```
-
-或
 
 ```
 git push origin --delete tag [tagname]
@@ -462,6 +463,14 @@ export LESSCHARSET=utf-8
 
 只在 Windows 下遇到，目前尚未找到有效办法。
 
+### git status 中文乱码
+
+目前只在 Mac 下遇到。
+
+```sh
+git config --global core.quotepath false
+```
+
 ### 统计代码行数
 
 CMD 下直接执行可能失败，可以在右键，Git Bash here 里执行。
@@ -472,7 +481,7 @@ CMD 下直接执行可能失败，可以在右键，Git Bash here 里执行。
 git log --author="$(git config --get user.name)" --pretty=tformat: --numstat | gawk '{ add += $1 ; subs += $2 ; loc += $1 - $2 } END { printf "added lines: %s removed lines : %s total lines: %s\n",add,subs,loc }'
 ```
 
-#### 仓库提交都排名前 5
+#### 仓库提交者排名前 5
 
 如果看全部，去掉 head 管道即可。
 
@@ -677,3 +686,9 @@ $ git remote prune origin
 ```
 
 清除完成。
+
+### 删除已经合并的本地分支
+
+```sh
+git branch --merged | ggrep -E -v "(^\*|master|main|dev|develop|support/fat)" | xargs git branch -d
+```

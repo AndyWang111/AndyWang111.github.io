@@ -1,7 +1,8 @@
 ---
 layout: wiki
 title: Markdown
-categories: Markdown
+cate1: Copywriting
+cate2: 
 description: Markdown 常用语法示例。
 keywords: Markdown
 mermaid: true
@@ -177,11 +178,19 @@ This is a text with footnote[^1].
 
 ### mermaid
 
-<div class="mermaid">
+```mermaid
 sequenceDiagram
-    Alice-->>John: Hello John, how are you?
+    Alice-->>John: Hello John, how are you?  
     John-->>Alice: Great!
-</div>
+```
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
 
 ### sequence
 

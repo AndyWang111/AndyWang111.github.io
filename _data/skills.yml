@@ -1,4 +1,3 @@
-# 与about.md文件配套使用
 - name: Software Engineer Keywords
   keywords:
       - Java
@@ -6,3 +5,15 @@
       - Python
       - Design Patterns
 
+- name: Mobile Developer Keywords
+  keywords:
+      - Android
+      - Reverse Engineering
+
+- name: Windows Developer Keywords
+  keywords:
+      - Win32 SDK
+      - DuiLib
+      - WTL
+      - COM
+      - WinDbg
