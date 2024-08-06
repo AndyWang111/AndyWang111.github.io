@@ -18,9 +18,9 @@
   # name: mzlogin
   # url: http://weibo.com/mzlogin
 
-# - sitename: 知乎
-  # name: mzlogin
-  # url: http://www.zhihu.com/people/mzlogin
+- sitename: 知乎
+  name: 王田野
+  url: zhihu.com/people/zha-zha-hui-77-34
 
 # - sitename: 豆瓣
   # name: 闷骚的程序员
