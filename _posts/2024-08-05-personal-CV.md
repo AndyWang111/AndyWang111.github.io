@@ -4,6 +4,7 @@ title: 介绍｜一份简洁的个人简历（大学期间）
 categories: [Introduction]
 description: 个人简历
 keywords: 个人信息, 简历, CV
+topmost: true
 mermaid: false
 sequence: false
 flow: false
