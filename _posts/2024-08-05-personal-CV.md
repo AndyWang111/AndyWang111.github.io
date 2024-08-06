@@ -15,33 +15,33 @@ mindmap2: false
 <table>
 	<tr style="height: 50px;">
 		<td style="font-size: 0.9em;"><strong>阿杆</strong></td>
-		<td style="font-size: 0.9em;"><strong>求职意向：后端开发</strong></td>
+		<td style="font-size: 0.9em;"><strong>研究意向：软硬结合</strong></td>
 		<td rowspan="5">
 			<img src="/images/CV/self.jpg" height="140" alt="">
 		</td>
 	</tr>
 	<tr>
-		<td>工作经验：一年</td>
-		<td>电话：sticki</td>
+		<td>爱好：跑步 乒乓球</td>
+		<td>QQ：863718570</td>
 	</tr>
 	<tr>
-		<td>出生年月：2000年10月</td>
-		<td>邮箱：sticki</td>
+		<td>出生年月：2002年</td>
+		<td>邮箱：863718570@qq.com </td>
 	</tr>
 	<tr>
-		<td>现住址：广东广州</td>
-		<td>教育背景：2023届 XX大学 本科 软件工程</td>
+		<td>现住址：四川成都</td>
+		<td>教育背景：2021级 UESTC </td>
 	</tr>
 	<tr>
-		<td><a href="https://juejin.cn/user/4182956056773160/posts">博客主页</a></td>
-		<td><a href="https://github.com/stick-i">GitHub主页</a></td>
+		<td><a href="https://wangtengyu.top">博客主页</a></td>
+		<td><a href="https://github.com/AndyWang111">GitHub主页</a></td>
 	</tr>
 </table>
 <hr/>
 
 ## 教育经历
 
-- **电子科技大学**，格拉斯哥学院，电子信息工程（*2021-2025*）
+- **电子科技大学**，电子信息工程（*2021-2025*）
 - **平均绩点：** 3.76/4.00  **专业成绩：** 86.03/100  **专业排名：** 36/239（15%）
 - **主修课程：** 电路分析与设计 99 电磁场与波 97 嵌入式处理器 95 电子器件 92 信号与系统 90 等
 - **外语水平：** GET4：587 GET6: 527
