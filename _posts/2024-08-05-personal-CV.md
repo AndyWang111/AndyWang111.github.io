@@ -1,3 +1,17 @@
+---
+layout: post
+title: 介绍｜一份简洁的个人简历（大学期间）
+categories: [Introduction]
+description: 个人简历
+keywords: 个人信息, 简历, CV
+mermaid: false
+sequence: false
+flow: false
+mathjax: false
+mindmap: false
+mindmap2: false
+---
+
 <table>
 	<tr style="height: 50px;">
 		<td style="font-size: 1.8em;"><strong>阿杆👨‍💻</strong></td>
