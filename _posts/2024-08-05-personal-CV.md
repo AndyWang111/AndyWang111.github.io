@@ -25,12 +25,12 @@ mindmap2: false
 		<td>QQ：863718570</td>
 	</tr>
 	<tr>
-		<td>出生年月：2002年</td>
-		<td>邮箱：863718570@qq.com </td>
+		<td>出生年份：2002年</td>
+		<td>邮箱：863718570@qq.com  </td>
 	</tr>
 	<tr>
-		<td>现住址：四川成都</td>
-		<td>教育背景：2021级 UESTC </td>
+		<td>现住址：四川省成都市</td>
+		<td>教育背景：2021级 UESTC EEE </td>
 	</tr>
 	<tr>
 		<td><a href="https://wangtengyu.top">博客主页</a></td>
