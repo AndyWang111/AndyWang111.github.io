@@ -15,7 +15,7 @@ mindmap2: false
 
 <table>
 	<tr style="height: 50px;">
-		<td style="font-size: 0.9em;"><strong>阿杆</strong></td>
+		<td style="font-size: 0.9em;"><strong>Wang Tengyu</strong></td>
 		<td style="font-size: 0.9em;"><strong>研究意向：软硬结合</strong></td>
 		<td rowspan="5">
 			<img src="/images/CV/self.jpg" height="140" alt="">
