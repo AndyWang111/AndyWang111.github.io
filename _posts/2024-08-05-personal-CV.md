@@ -54,7 +54,7 @@ mindmap2: false
 ## 科研竞赛
 
 <h4 style="display: flex;justify-content: space-between;">
-<span>一、大学生创新创业大赛</span><span>Web“基于无人机的工业废气污染源自主监测系统”</span><span>2022.12-2023.12</span>
+<span>一、“基于无人机的工业废气污染源自主监测系统”</span><span>2022.12-2023.12</span>
 </h4>
 
 - **研究内容：** 在废气污染区域不断迭代寻找源头，同时实现路径规划，并提供仿真验证算法的合理性；
