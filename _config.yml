@@ -4,7 +4,7 @@
 baseurl:
 url: https://AndyWang111.github.io
 date_format: "ordinal"
-title: 璧坐玑驰
+title: 璧坐
 subtitle: "我习于冷，志成于冰"
 description: "记录生活点滴，解构世界哲理"
 keywords: CV, EEE, UESTC, WangTengyu
@@ -58,7 +58,7 @@ highlight_theme: github
 #      Author      #
 # ---------------- #
 author: WangTengyu
-organization: 
+organization: UESTC
 organization_url: 
 github_username: AndyWang111
 location: Chengdu, China
