@@ -17,7 +17,7 @@ mindmap2: false
 		<td style="font-size: 1.8em;"><strong>阿杆</strong></td>
 		<td style="font-size: 1.5em;"><strong>求职意向：后端开发</strong></td>
 		<td rowspan="5">
-			<img src="./images/blog/self.jpg" height="140" alt="">
+			<img src="/images/CV/self.jpg" height="140" alt="">
 		</td>
 	</tr>
 	<tr>
