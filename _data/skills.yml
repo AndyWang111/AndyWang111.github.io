@@ -1,19 +1,23 @@
 - name: Software Engineer Keywords
   keywords:
-      - Java
-      - C++
+      # - Java
+      # - C++
       - Python
-      - Design Patterns
+      - Matlab
+      - Keil
+      - LTspice
 
-- name: Mobile Developer Keywords
+- name: Article Keywords
   keywords:
-      - Android
-      - Reverse Engineering
+      - Sci-Fi
+      - Poem
+      - Realistic
+      - Romantic
 
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+# - name: Windows Developer Keywords
+  # keywords:
+      # - Win32 SDK
+      # - DuiLib
+      # - WTL
+      # - COM
+      # - WinDbg
