@@ -121,17 +121,6 @@ mindmap2: false
 
 > 记录生活点滴，解构世界哲理。希望可以找到志同道合的朋友，一起对这个世界的本质进行探索和发掘。
 
-<h4 style="display: flex;justify-content: space-between;">
-<span>一、个人博客</span><span>个人开源项目</span><span>2024.08 - 至今</span>
-</h4>
-
-<h4 style="display: flex;justify-content: space-between;">
-<span>一、个人博客</span><span>个人开源项目</span><span>2024.08 - 至今</span>
-</h4>
-
-<h4 style="display: flex;justify-content: space-between;">
-<span>一、个人博客</span><span>个人开源项目</span><span>2024.08 - 至今</span>
-</h4>
 
 <hr/>
 
@@ -143,6 +132,10 @@ mindmap2: false
 - 2022.4 “外研社·国才杯”全国英语写作竞赛校赛二等奖
 - 2023.8 学校优秀志愿者
 - 2022.5 “绿行义工站”优秀社团个人
+- 三年连续担任班级组织委员，并连续评为优秀班干部
+- 参与电子科技大学的迎新志愿活动
+- 组织格拉斯哥学院第七党支部的党日活动“新质生产力”，并撰写新闻稿
+- 赴河北省蔚县宋家庄镇人民政府响应寒假返乡实践活动，受到政府表扬
 
 <style>
     #write {
