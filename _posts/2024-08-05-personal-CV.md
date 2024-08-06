@@ -14,10 +14,10 @@ mindmap2: false
 
 <table>
 	<tr style="height: 50px;">
-		<td style="font-size: 1.8em;"><strong>阿杆👨‍💻</strong></td>
+		<td style="font-size: 1.8em;"><strong>阿杆</strong></td>
 		<td style="font-size: 1.5em;"><strong>求职意向：后端开发</strong></td>
 		<td rowspan="5">
-			<img src="./image/sticki_avatar.jpg" height="140" alt="">
+			<img src="./images/blog/self.jpg" height="140" alt="">
 		</td>
 	</tr>
 	<tr>
@@ -39,7 +39,7 @@ mindmap2: false
 </table>
 <hr/>
 
-### ==😎专业技能==
+## 专业技能
 
 - 熟悉 **Java** 、**Kotlin** 服务端开发，熟悉 **JVM** 基础知识，如内存模型、垃圾回收等，熟悉 **多线程** 用法
 - 熟悉 **Spring、SpringBoot、Mybatis-Plus** 等常用框架，熟悉 **SpringCloud** 常用组件
@@ -51,7 +51,7 @@ mindmap2: false
 
 <hr/>
 
-### ==🏢工作经历==
+## 工作经历
 
 <h4 style="display: flex;justify-content: space-between;">
 <span>一、公司名称 - 部门</span><span>Web后台研发</span><span>2023.04 - 至今</span>
@@ -68,7 +68,7 @@ mindmap2: false
 
 <hr/>
 
-### ==💻工作项目==
+## 工作项目
 
 > ps：工作项目的内容都是我瞎写的，仅作为模板参考，并不是真实的项目经历。
 
@@ -110,7 +110,7 @@ mindmap2: false
 
 <hr/>
 
-### ==🚀个人项目==
+## 个人项目
 
 <h4 style="display: flex;justify-content: space-between;">
 <span>一、校园博客</span><span>个人开源项目</span><span>2022.03 - 2022.07</span>
@@ -140,7 +140,7 @@ mindmap2: false
 
 <hr/>
 
-### ==🏆获奖经历==
+## 获奖经历
 
 - 蓝桥杯 <u>算法类</u> 竞赛 - 省赛一等奖 3次、国赛三等奖 2次
 - 中国大学生计算机设计大赛 - 中南地区二等奖
