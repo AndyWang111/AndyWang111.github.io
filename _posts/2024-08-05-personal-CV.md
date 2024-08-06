@@ -62,7 +62,7 @@ mindmap2: false
 - **研究成果：** 英语会议论文一篇（第一作者），《Fully Automated UAV Cluster Pollution Source Detection Algorithm》，EI 检索。
 
 <h4 style="display: flex;justify-content: space-between;">
-<span>二、美国大学生数学建模竞赛 </span><span>队长</span><span>2024.02</span>
+<span>二、美国大学生数学建模竞赛 </span><span>2024.02</span>
 </h4>
 
 - **选择题目：** A 题，探究性别比例改变能力对七鳃鳗以及其所处生态系统的影响；
@@ -70,7 +70,7 @@ mindmap2: false
 - **研究成果：** M 奖（388/5671，获奖率 6%）。
 
 <h4 style="display: flex;justify-content: space-between;">
-<span>三、大学生嵌入式芯片与系统设计竞赛 </span><span>队长</span><span>2024.08</span>
+<span>三、大学生嵌入式芯片与系统设计竞赛 </span><span>2024.08</span>
 </h4>
 
 - **团队名称：** JWC；
