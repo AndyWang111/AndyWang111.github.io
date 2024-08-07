@@ -17,6 +17,8 @@ mindmap2: false
 > **"Say It Again"** (中文名称为 **“再谈记忆”** )的创作者为盘尼西林乐队，他们以传统吉他摇滚为根基，融合多类型音乐风格，打造出属于他们的"浪漫主义摇滚乐"。拥有着超越年龄的思维与渴望，歌唱九零一代年轻人敏感而丰富的世界与生活。极强的现场感染力和出众的外形也成为他们脱颖而出的法宝。总之，盘尼西林是一支最具有潜力的独立摇滚乐队，他们将优美的旋律和夸张、狂放不羁的现场融合，建立了属于自己乐队的独特气质。在现场演唱时，盘尼西林乐队时而狂躁，时而恬静、时而阳光、时而忧郁，他们将情绪的变化很好的融合到音乐里，让现场充满了想象力和感染力。
 --来自搜狗百科
 
+# 歌词（Lyrics）--「[MusicLyrics](https://www.musicenc.com/article/347915.html)」
+
 ```
 再谈记忆 Say it again Lyrics
 再谈记忆 Say it again - 盘尼西林[00:00]
@@ -61,6 +63,8 @@ Say say it again you know the past things could set my free[04:18]
 再说一遍 你知道 美好的经历能让我得到解脱[04:21]
 Say say it again sometimes the memory was winding my mind[04:31]
 再说一遍 有时候 记忆在我脑海萦绕不去
+
+
 
 ```
 
