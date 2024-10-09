@@ -3,7 +3,7 @@ layout: article
 title: 解构世界｜张有志文学积累
 categories: [Article]
 description: 解构世界
-keywords: 解构世界, 哲思, 诺贝尔奖, 科研
+keywords: 解构世界, 哲思, 张有志, 妥协
 mermaid: false
 sequence: false
 flow: false
@@ -11,8 +11,6 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
-
-
 > 未以营利为目的，违规必删。
 
 人生是旷野，不是轨道，我有权拒绝一种生活！张有志有遗憾，我也有，但我不希望你有。
