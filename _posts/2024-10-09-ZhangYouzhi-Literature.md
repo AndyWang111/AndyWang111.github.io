@@ -4,7 +4,6 @@ title: 解构世界｜张有志文学积累
 categories: [Article]
 description: 解构世界
 keywords: 解构世界, 哲思, 诺贝尔奖, 科研
-topmost: true
 mermaid: false
 sequence: false
 flow: false
