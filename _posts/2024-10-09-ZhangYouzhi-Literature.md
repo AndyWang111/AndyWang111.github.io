@@ -1,7 +1,7 @@
 ---
 layout: article
 title: 解构世界｜张有志文学积累
-categories: Article
+categories: Articles
 description: 解构世界
 keywords: 解构世界, 哲思, 张有志, 妥协
 mermaid: false
