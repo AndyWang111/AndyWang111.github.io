@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: post
 title: 解构世界|张有志文学积累
 categories: Articles
 description: 解构世界
