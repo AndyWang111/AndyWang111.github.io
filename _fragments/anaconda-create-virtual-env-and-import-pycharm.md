@@ -30,6 +30,9 @@ mindmap2: false
 ### Step 5：一键安装库文件
 > pip install -r requirments.txt -i 镜像网站地址
 
+### Step 6：查看虚拟环境
+> pip list
+
 
 
 
